@@ -3,6 +3,7 @@ package main
 import (
     "fmt"
     "mymod/mytestlib"
+    "mymod2"
 )
 
 func main() {
@@ -13,6 +14,8 @@ func main() {
     
     result = mytestlib.MyProd(1,2)
     fmt.Println("MyProd: ", result)
+    
+    fmt.Println("lets see: ", myanotherone.MyString("eins", "zwei"))
     
     fmt.Scanln()
 }    
