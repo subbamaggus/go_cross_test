@@ -7,7 +7,12 @@ import (
 
 func main() {
     fmt.Println("hello world")
+    
     result := mytestlib.MySum(1,2)
-    fmt.Println("result: ", result)
+    fmt.Println("MySum: ", result)
+    
+    result = mytestlib.MyProd(1,2)
+    fmt.Println("MyProd: ", result)
+    
     fmt.Scanln()
 }    
